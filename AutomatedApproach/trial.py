@@ -21,11 +21,11 @@ def return3DRenderingAndCode(user_query, download_dir):
     pyautogui.keyUp("command")
 
     # Type "ChatGPT"
-    time.sleep(0.5)  # Wait for Spotlight to fully appear
+    time.sleep(0.7)  # Wait for Spotlight to fully appear
     pyautogui.write("ChatGPT", interval=0.1)
 
     # Press Enter to open it
-    time.sleep(0.5)
+    time.sleep(0.7)
     pyautogui.press("enter")
 
 
